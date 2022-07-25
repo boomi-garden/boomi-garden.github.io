@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>tidy-revealjs demo</title>
+			<meta name="description" content="A custom theme and build system for reveal.js">
+		<meta name="author" content="Julie Ng">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" href="assets/vendor/revealjs/css/reset.css">
+		<link rel="stylesheet" href="assets/vendor/revealjs/css/reveal.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="assets/vendor/prism-monokai.css">
+
+		<!-- Tidy Styles -->
+		<link rel="stylesheet" href="assets/css/styles.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'assets/vendor/revealjs/css/print/pdf.css' : 'assets/vendor/revealjs/css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+
+		<div class="reveal">
+			<div class="slides">
+						<section data-markdown="slides/0-presentation-title.md" data-separator-notes="^Note:"></section>		<section data-markdown="slides/1-solutions.md" data-separator-notes="^Note:"></section>		<section>
+									<section data-markdown="slides/case1/0-title.md" data-separator-notes="^Note:"></section>		<section data-markdown="slides/case1/1-filters.md" data-separator-notes="^Note:"></section>		<section data-markdown="slides/case1/2-modified.md" data-separator-notes="^Note:"></section>		<section data-markdown="slides/case1/3-acctnumber.md" data-separator-notes="^Note:"></section>		<section data-markdown="slides/case1/4-exist.md" data-separator-notes="^Note:"></section>		<section data-markdown="slides/case1/5-statement.md" data-separator-notes="^Note:"></section>		<section data-markdown="slides/case1/6-insert.md" data-separator-notes="^Note:"></section>		<section data-markdown="slides/case1/7-uniqueid.md" data-separator-notes="^Note:"></section>		<section data-markdown="slides/case1/8-table.md" data-separator-notes="^Note:"></section>		</section>
+						<section>
+									<section data-markdown="slides/case2/00-title.md" data-separator-notes="^Note:"></section>		<section data-markdown="slides/case2/01-columns.md" data-separator-notes="^Note:"></section>		<section data-markdown="slides/case2/02-won.md" data-separator-notes="^Note:"></section>		<section data-markdown="slides/case2/03-operation-pull.md" data-separator-notes="^Note:"></section>		<section data-markdown="slides/case2/04-notified.md" data-separator-notes="^Note:"></section>		<section data-markdown="slides/case2/05-prospect.md" data-separator-notes="^Note:"></section>		<section data-markdown="slides/case2/06-mapping.md" data-separator-notes="^Note:"></section>		<section data-markdown="slides/case2/07-mapping-property.md" data-separator-notes="^Note:"></section>		<section data-markdown="slides/case2/08-update.md" data-separator-notes="^Note:"></section>		<section data-markdown="slides/case2/09-email.md" data-separator-notes="^Note:"></section>		<section data-markdown="slides/case2/10-variables.md" data-separator-notes="^Note:"></section>		<section data-markdown="slides/case2/11-update-mysql.md" data-separator-notes="^Note:"></section>		<section data-markdown="slides/case2/12-update-statement.md" data-separator-notes="^Note:"></section>		</section>
+						<section>
+									<section data-markdown="slides/case3/0-title.md" data-separator-notes="^Note:"></section>		<section data-markdown="slides/case3/1-lookup.md" data-separator-notes="^Note:"></section>		<section data-markdown="slides/case3/2-details.md" data-separator-notes="^Note:"></section>		</section>
+			</div>
+		</div>
+
+		<script src="assets/vendor/revealjs/reveal.js"></script>
+		<script>
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				center: false,
+				hash: true,
+				history: true,
+				width: 1280,
+				height: 720,
+				margin: 0.1,
+				transition: 'fade', // none/fade/slide/convex/concave/zoom
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'assets/vendor/revealjs/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'assets/vendor/revealjs/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					// { src: 'assets/vendor/revealjs/plugin/highlight/highlight.js', async: true },
+					// { src: 'assets/vendor/revealjs/plugin/search/search.js', async: true },
+					// { src: 'assets/vendor/revealjs/plugin/zoom-js/zoom.js', async: true },
+					{ src: 'assets/vendor/revealjs/plugin/notes/notes.js', async: true },
+					{ src: 'assets/vendor/revealjs/plugin/notes-server/client.js', async: true },
+					{ src: 'assets/vendor/prism.js', async: true }
+					// { src: 'https://platform.twitter.com/widgets.js', async: true }
+				]
+			})
+		</script>
+	</body>
+</html>

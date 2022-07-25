@@ -1,6 +1,6 @@
 # Hybrid, Cloud, and On Premise
 
-<img src="./images/20220725093131.png" class="img-right">
+<img src="./images/20220725100417.gif" class="img-right">
 
-- Support for Hybrid, Cloud, or On Premise solutions
-- Easily manage your Boomi Cloud and On Premise Environments
+- Bring your integrations to the Cloud, On Premise, or in Hybrid Configurations
+- Supports Connectors for many popular services

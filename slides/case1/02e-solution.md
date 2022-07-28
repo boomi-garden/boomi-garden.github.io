@@ -5,9 +5,9 @@ SFDC to MYSQL
 
 - Propsect account types only
 - Modified in the last 24 hours
-- Does not exist in the ERP DB
+- Does not exist in MYSQL
 - Addition to solution:
-  - Is the account number defined in SFDC
+  - Is account number empty?
 
 
 <aside class="notes">

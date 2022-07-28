@@ -3,10 +3,10 @@ SFDC to MYSQL
 
 <img src="./images/20220724205200.png" class="img-right">
 
-- Write record to ERP DB
+- Write record to MYSQL DB
 
 <aside class="notes">
 <ul>
-<li>If all condition checks pass we then perform our INSERT record to your ERP DB</li>
+<li>If all condition checks pass we then perform INSERT record to MYSQL DB</li>
 </ul>
 </aside>

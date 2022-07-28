@@ -5,6 +5,6 @@ MYSQL to SFDC Sync
 
 <aside class="notes">
 <ul>
-<li>Using your ERP to track won customers</li>
+<li>Using your MYSQL to track won customers</li>
 </ul>
 </aside>

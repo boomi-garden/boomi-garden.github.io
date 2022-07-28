@@ -4,13 +4,6 @@ SFDC to MYSQL
 ![](./images/20220724202956.png)
 
 Note:
-- Simplicity is key here
-- Everything required is what you see
+- Make a note of how simple it is to build a solution
 - No extra tools or back-end coding required
 - Next we are going to run through the criteria's required for this solution
-
-<aside class="notes">
-<ul>
-<li></li>
-</ul>
-</aside>

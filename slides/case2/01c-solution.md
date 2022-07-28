@@ -7,6 +7,6 @@ MYSQL to SFDC Sync
 
 <aside class="notes">
 <ul>
-<li>Checks the ERP to see if the customer has already been notified</li>
+<li>Checks the MYSQL to see if the customer has already been notified</li>
 </ul>
 </aside>

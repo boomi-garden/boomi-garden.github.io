@@ -8,6 +8,6 @@ SFDC to MYSQL
 
 <aside class="notes">
 <ul>
-<li>Our SFDC_ID is now mapped to a new key in the ERP DB called "sforceid"</li>
+<li>Our SFDC_ID is now mapped to a new key in the MYSQL DB called "sforceid"</li>
 </ul>
 </aside>
